@@ -37,6 +37,8 @@
     "@typescript-eslint/camelcase": "off",
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
+    "@typescript-eslint/class-name-casing": "off",
+    "no-restricted-syntax": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
