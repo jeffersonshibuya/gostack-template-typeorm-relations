@@ -16,11 +16,13 @@ export default class CreateOrdersProducts1596473408366
           },
           {
             name: 'product_id',
-            type: 'varchar',
+            type: 'uuid',
+            isNullable: true,
           },
           {
             name: 'order_id',
-            type: 'varchar',
+            type: 'uuid',
+            isNullable: true,
           },
           {
             name: 'price',
